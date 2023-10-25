@@ -41,6 +41,19 @@
 *::after {
   box-sizing: border-box;
 }
+.container-fluid.bg-light.position-relative.shadow {
+  z-index: 111 !important;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.bg-primary {
+  background-color: #20c997 !important;
+}
+.container-fluid.bg-primary.mb-5 {
+  margin-top: 90px;
+}
 @charset "UTF-8";
 .animated {
   -webkit-animation-duration: 1s;
